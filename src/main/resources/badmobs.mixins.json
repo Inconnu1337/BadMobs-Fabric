@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.Inconnu.badmobs.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinFinalizeSpawn",
+    "MixinServerLevel"
+  ],
+  "server": [],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

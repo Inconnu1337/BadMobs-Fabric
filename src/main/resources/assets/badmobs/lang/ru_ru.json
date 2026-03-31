@@ -1,0 +1,9 @@
+{
+  "commands.badmobs.set.success":     "Для моба %s запрещены появления: %s",
+  "commands.badmobs.set.all_allowed": "Для моба %s все типы появлений разрешены",
+  "commands.badmobs.error.not_tracked": "Моб %s не отслеживается конфигом",
+  "commands.badmobs.error.invalid_spawn_type": "Неизвестный тип появления: %s",
+  "commands.badmobs.error.config_null": "Конфиг не загружен",
+  "commands.badmobs.reload.success":  "Конфиг перезагружен",
+  "commands.badmobs.save.success":    "Конфиг сохранён"
+}

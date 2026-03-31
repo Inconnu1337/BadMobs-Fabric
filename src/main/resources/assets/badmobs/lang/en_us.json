@@ -1,0 +1,9 @@
+{
+  "commands.badmobs.error.config_null":        "BadMobs config is not loaded.",
+  "commands.badmobs.reload.success":           "BadMobs config reloaded successfully.",
+  "commands.badmobs.save.success":             "BadMobs config saved successfully.",
+  "commands.badmobs.error.invalid_spawn_type": "Invalid spawn type: %s",
+  "commands.badmobs.error.not_tracked":        "Entity '%s' is not tracked by BadMobs.",
+  "commands.badmobs.set.success":              "Mob %s blocked spawn types: %s",
+  "commands.badmobs.set.all_allowed":          "Mob %s has all spawn types allowed."
+}

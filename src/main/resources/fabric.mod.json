@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "authors": [
+    "${mod_author}"
+  ],
+  "contact": {
+    "homepage": "${curse_page}",
+    "sources": "${mod_repo}",
+    "issues": "${mod_repo}/issues"
+  },
+  "license": "${mod_license}",
+  "icon": "logo_badmobs.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.Inconnu.badmobs.BadMobs"
+    ],
+    "client": []
+  },
+  "mixins": [
+    "badmobs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
